@@ -1,0 +1,25 @@
+main::before {
+  content: "";
+  background-image: linear-gradient(
+      319deg,
+      var(--bg-secondary) 16px,
+      transparent 17px
+    ),
+    linear-gradient(39deg, var(--bg-secondary) 16px, transparent 17px);
+  background-size: 48px 23px;
+  background-repeat: repeat-x;
+  height: 100px;
+  display: block;
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  left: 0px;
+  top: -23px;
+}
+
+.box {
+  box-shadow: 3.7px 7.4px 7.4px hsl(0deg 0% 0% / 0.39);
+}
+.rounded {
+  border-radius: 0.5rem;
+}
